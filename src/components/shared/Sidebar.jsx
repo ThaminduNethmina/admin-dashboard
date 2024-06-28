@@ -5,7 +5,7 @@ import { HiOutlineArrowLeftStartOnRectangle } from "react-icons/hi2";
 function Sidebar() {
     const { pathname } = useLocation()
     return (
-        <div className="bg-slate-800 w-full md:w-36 flex flex-col">
+        <div className="bg-gradient-to-b from-black to-gray-950 w-full md:w-40 flex flex-col">
             <div className="flex">
                 <img src="/images/seds-logo.png" />
             </div>

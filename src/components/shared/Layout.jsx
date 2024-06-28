@@ -1,12 +1,13 @@
 import Sidebar from "./Sidebar";
+import Header from "./Header";
 import { Outlet } from "react-router-dom";
 
 function Layout() {
     return (
-        <div className="flex flex-row h-screen w-screen">
+        <div className="flex flex-row h-screen w-screen bg-gradient-to-br from-black to-gray-950">
             <Sidebar />
-            <main>
-                <h1>Header</h1>
+            <main className="w-full">
+                <Header />
                 <Outlet />
             </main>
         </div>
