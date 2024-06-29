@@ -1,7 +1,11 @@
+import DashboardFirstRow from "./DashboardFirstRow"
+import DashboardSecondRow from "./DashboardSecondRow"
+
 function Dashboard() {
   return (
-    <div>
-      <h1>Dashboard</h1>
+    <div className="flex flex-col gap-4 p-4">
+      <DashboardFirstRow />
+      <DashboardSecondRow />
     </div>
   )
 }
