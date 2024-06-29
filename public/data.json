@@ -6,7 +6,7 @@
         },
         {
             "name": "Users Count",
-            "value": 500
+            "value": 74
         },
         {
             "name": "Events Count",
@@ -15,6 +15,62 @@
         {
             "name": "Time Spent",
             "value": "2549 Hrs"
+        }
+    ],
+    [
+        {
+            "day": "Monday",
+            "value": 13
+        },
+        {
+            "day": "Tuesday",
+            "value": 24
+        },
+        {
+            "day": "Wednesday",
+            "value": 56
+        },
+        {
+            "day": "Thursday",
+            "value": 30
+        },
+        {
+            "day": "Friday",
+            "value": 12
+        },
+        {
+            "day": "Saturday",
+            "value": 45
+        },
+        {
+            "day": "Sunday",
+            "value": 67
+        }
+    ],
+    [
+        {
+            "name": "Engineering",
+            "value": 20
+        },
+        {
+            "name": "Natural Science",
+            "value": 30
+        },
+        {
+            "name": "Management",
+            "value": 5
+        },
+        {
+            "name": "Health Sciences",
+            "value": 3
+        },
+        {
+            "name": "Humanities and Social Sciences",
+            "value": 4
+        },
+        {
+            "name": "Education",
+            "value": 12
         }
     ]
 ]

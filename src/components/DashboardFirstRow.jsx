@@ -14,11 +14,11 @@ const icons = [
 
 
 function DashboardFirstRow() {
-    const [data, setData] = useState([])
+    const [statsData, setStatsData] = useState([])
     useEffect(() => {
         axios.get("/data.json")
             .then(response => {
-                setData(response.data[0])
+                setStatsData(response.data[0])
             })
             .catch(error => {
                 console.log(error)
@@ -28,7 +28,7 @@ function DashboardFirstRow() {
   return (
     <div className="flex gap-4 w-full">
         {
-            data.map((item, index) => (
+            statsData.map((item, index) => (
                 <BoxWrapper key={index}>
                     {icons[index]}
                     <div className="ms-3">
