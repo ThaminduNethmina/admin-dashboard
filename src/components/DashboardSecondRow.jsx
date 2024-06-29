@@ -2,22 +2,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsive
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function DashboardSecondRow() {
-    const [barchartData, setBarchartData] = useState([])
-    const [piechartData, setPiechartData] = useState([])
-    useEffect(() => {
-        axios.get("/data.json")
-            .then(response => {
-                console.log(response.data)
-                setBarchartData(response.data[1])
-                setPiechartData(response.data[2])
-            })
-            .catch(error => {
-                console.log(error)
-            })
-    }, [])
-
-
+function DashboardSecondRow({ barchartData, piechartData }) {
     return (
         <div className="bg-transparent hidden lg:flex gap-4 w-full h-72">
             <div className="flex text-xs w-3/4 flex-col items-start bg-gradient-to-br from-sky-950 to-slate-950 rounded-lg border border-sky-950 p-3 transition ease-out duration-300 hover:shadow-inner hover:shadow-sky-100">

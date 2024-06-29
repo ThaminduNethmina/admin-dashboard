@@ -2,8 +2,6 @@ import { FcComboChart } from "react-icons/fc";
 import { FcConferenceCall } from "react-icons/fc";
 import { FcCalendar } from "react-icons/fc";
 import { FcAlarmClock } from "react-icons/fc";
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 const icons = [
     <FcComboChart size={50} />,
@@ -12,19 +10,7 @@ const icons = [
     <FcAlarmClock size={50} />,
 ]
 
-
-function DashboardFirstRow() {
-    const [statsData, setStatsData] = useState([])
-    useEffect(() => {
-        axios.get("/data.json")
-            .then(response => {
-                setStatsData(response.data[0])
-            })
-            .catch(error => {
-                console.log(error)
-            })
-    }, [])
-
+function DashboardFirstRow({ statsData }) {
   return (
     <div className="flex gap-4 w-full">
         {

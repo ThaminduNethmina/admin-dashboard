@@ -72,5 +72,57 @@
             "name": "Education",
             "value": 12
         }
+    ],
+    [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "position": "Web Master",
+            "division": "Web Development"
+        },
+        {
+            "id": 2,
+            "name": "Sam Doe",
+            "position": "President",
+            "division": "Management"
+        },
+        {
+            "id": 3,
+            "name": "John Smith",
+            "position": "Secretary",
+            "division": "Flyer Designing"
+        },
+        {
+            "id": 4,
+            "name": "Jane Smith",
+            "position": "Treasurer",
+            "division": "Finance"
+        }
+    ],
+    [
+        {
+            "id": 1,
+            "name": "Awarding Ceremony",
+            "date": "2024-12-12",
+            "venue": "Main Hall"
+        },
+        {
+            "id": 2,
+            "name": "Astro Competition",
+            "date": "2024-12-01",
+            "venue": "Online"
+        },
+        {
+            "id": 3,
+            "name": "First Meet Up",
+            "date": "2024-10-12",
+            "venue": "Main Ground"
+        },
+        {
+            "id": 4,
+            "name": "Annual General Meeting",
+            "date": "2024-12-12",
+            "venue": "Main Hall"
+        }
     ]
 ]
