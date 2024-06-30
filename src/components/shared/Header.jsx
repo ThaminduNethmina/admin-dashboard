@@ -7,7 +7,7 @@ function Header() {
         <header className="bg-gradient-to-r from-black to-gray-950 text-white px-4 h-16 flex justify-between items-center">
             <div className="relative">
                 <HiOutlineSearch className="absolute top-1/2 left-2 transform -translate-y-1/2 text-white" />
-                <input type="text" placeholder="Search" className="bg-neutral-900 text-sm focus:outline-none text-white border border-gray-400 ps-8 px-2 py-1 rounded-full" />
+                <input type="text" placeholder="Search" className="bg-neutral-900 text-sm focus:outline-none text-white border w-44 border-gray-400 ps-8 px-2 py-2 rounded-full" />
             </div>
             <div className="">
                 <Menu>
@@ -23,7 +23,7 @@ function Header() {
                     <MenuItems
                         transition
                         anchor="bottom start"
-                        className="w-40 origin-top-right rounded-xl border border-white/5 bg-white/30 p-1 text-sm/6 text-white transition duration-100 ease-out [--anchor-gap:var(--spacing-3)] focus:outline-none data-[closed]:scale-95 data-[closed]:opacity-0"
+                        className="w-40 origin-top-right rounded-xl border border-white/5 bg-white/80 p-1 text-sm/6 text-neutral-950 transition duration-100 ease-out [--anchor-gap:var(--spacing-3)] focus:outline-none data-[closed]:scale-95 data-[closed]:opacity-0"
                     >
                         <MenuItem>
                             <button className="group flex w-full items-center gap-2 rounded-lg py-1.5 px-3 data-[focus]:bg-white/10">
@@ -36,7 +36,7 @@ function Header() {
                             </button>
                         </MenuItem>
                         <MenuItem>
-                            <button className="group flex w-full items-center gap-2 rounded-lg text-red-300 py-1.5 px-3 data-[focus]:bg-white/10">
+                            <button className="group flex w-full items-center gap-2 rounded-lg text-red-600 py-1.5 px-3 data-[focus]:bg-white/10">
                                 Sign Out
                             </button>
                         </MenuItem>
