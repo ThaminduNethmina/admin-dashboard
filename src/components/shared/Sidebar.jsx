@@ -12,7 +12,7 @@ function Sidebar() {
     };
     const { pathname } = useLocation()
     return (
-        <div className="bg-gradient-to-b from-black to-gray-950 w-full md:w-40 flex flex-col">
+        <div className="bg-gradient-to-b from-black to-gray-950 w-full md:w-40 flex flex-col md:h-screen">
             <div className="hidden md:flex">
                 <img src="/images/seds-logo.png" />
             </div>

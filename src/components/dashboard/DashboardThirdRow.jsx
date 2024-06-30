@@ -23,7 +23,7 @@ function BoxWrapper({ children, name }) {
     return (
         <div className="bg-gradient-to-br from-sky-950 to-slate-950 rounded-lg flex-1 flex flex-col  border border-sky-950 p-3 transition ease-out duration-300 hover:scale-105 hover:shadow-inner  hover:shadow-sky-100">
             <strong className="text-sm text-white px-5">{name}</strong>
-            <div className="mt-4 mx-7 flex-col gap-1 h-36 overflow-y-scroll no-scrollbar">
+            <div className="mt-4 mx-7 flex-col gap-1 h-40 overflow-y-scroll no-scrollbar">
                 {children}
             </div>
         </div>
